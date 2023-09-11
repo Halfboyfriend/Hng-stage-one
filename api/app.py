@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
@@ -21,7 +21,7 @@ def apiroute():
             'current_day': day,
             'track': 'backend',
             'github_repo': 'https://github.com/Halfboyfriend?tab=repositories',
-            'github_file_url': 'coming soon...',
+            'github_file_url': 'https://github.com/Halfboyfriend/Hng-stage-one.git',
             'status_code': 200
             
 
